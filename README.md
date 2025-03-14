@@ -72,14 +72,6 @@ ML_Project/
 
 ---
 
-## **Model Evaluation & Key Findings**  
-
-| **Model**      | **RMSE**  | **R² Score** | **MAE**  |
-|---------------|-----------|-------------|-----------|
-| CNN           | 585.90    | 0.0142      | 735.06    |
-| Random Forest | 14.76     | 0.9997      | -         |
-| XGBoost       | 21.89     | 0.9993      | -         |
-
 ### **Insights:**
 - **PCA improved model performance** by reducing redundant features.  
 - **Random Forest and XGBoost outperformed CNN**, suggesting tree-based models work better for this dataset.  
